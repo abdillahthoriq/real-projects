@@ -445,7 +445,7 @@ footer .credits a {
 /* Item Detail */
 
 .modal {
-  display: flex;
+  display: none;
   position: fixed;
   z-index: 9999;
   left: 0;
@@ -464,6 +464,19 @@ footer .credits a {
   padding: 1.2rem;
   border: 1px solid #666;
   width: 80%;
+  animation: animateModal 0.5s;
+}
+
+/* Modal Box */
+@keyframes animateModal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .modal .close-icon {
@@ -598,6 +611,10 @@ footer .credits a {
   }
   footer .credits {
     display: none;
+  }
+
+  .modal-content {
+    flex-wrap: wrap;
   }
 }
 
