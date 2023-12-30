@@ -70,3 +70,31 @@ window.onclick = (e) => {
     itemDetailModal.style.display = "none";
   }
 };
+
+// manipulasi ketika salah satu inputan belum di isi
+
+// function validateForm() {
+//   var name = document.getElementById("name").value;
+//   var email = document.getElementById("Email").value;
+//   var phone = document.getElementById("phone").value;
+
+//   if (name === "" || email === "" || phone === "") {
+//     alert("Please fill in all fields.");
+//     return false;
+//   }
+
+//   return true;
+// }
+
+// document.addEventListener("input", function () {
+//   var name = document.getElementById("name").value;
+//   var email = document.getElementById("Email").value;
+//   var phone = document.getElementById("phone").value;
+//   var checkoutButton = document.getElementById("checkout-button");
+
+//   if (name !== "" && email !== "" && phone !== "") {
+//     checkoutButton.removeAttribute("disabled");
+//   } else {
+//     checkoutButton.setAttribute("disabled", "disabled");
+//   }
+// });
