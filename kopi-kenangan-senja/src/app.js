@@ -105,7 +105,7 @@ checkoutButton.addEventListener("click", function (e) {
   const data = new URLSearchParams(formData);
   const objData = Object.fromEntries(data);
   const message = formatMessage(objData);
-  window.open("http://wa.me/6281389795090?text=" + encodeURIComponent(message));
+  window.open("http://wa.me/6288973805955?text=" + encodeURIComponent(message));
 });
 
 // format pesan WhatsApp

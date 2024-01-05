@@ -13,7 +13,9 @@ html {
   border: none;
   text-decoration: none;
 }
-
+.icon-logo {
+  border-radius: 100% !important;
+}
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
@@ -241,7 +243,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/img/header-bg.png");
+  background-image: url("/products/productutama.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -316,7 +318,7 @@ body {
 .menu,
 .products,
 .contact {
-  padding: 8rem 7% 1.4rem;
+  padding: 8rem 6% 1rem;
   width: 100%;
 }
 .about h2,
@@ -385,18 +387,20 @@ body {
 }
 
 .menu .row {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-top: 7rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .menu .row .menu-card {
+  /* width: 35%; */
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 .menu .row .menu-card img {
-  border-radius: 100%;
-  width: 30%;
+  border-radius: 90%;
+  width: 70%;
 }
 .menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
@@ -419,8 +423,9 @@ body {
 
 .products .product-icons {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.1rem;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .products .product-icons a {
@@ -743,6 +748,9 @@ footer .credits a {
   }
   footer .credits {
     display: none;
+  }
+  .row {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 350px) {
