@@ -4,13 +4,6 @@ document.addEventListener("alpine:init", () => {
       { id: 1, name: "aloevera bliss", img: "produk-1.jpg", price: 7000 },
       { id: 2, name: "aloevera bliss", img: "produk-2.jpg", price: 7000 },
       { id: 3, name: "aloevera bliss", img: "produk-3.jpg", price: 7000 },
-      { id: 4, name: "aloevera bliss", img: "produk-1.jpg", price: 7000 },
-      {
-        id: 5,
-        name: "aloevera bliss",
-        img: "produk-1.jpg",
-        price: 7000,
-      },
     ],
   }));
   // ...
